@@ -1,0 +1,20 @@
+.jobs-main {
+    padding-block: 100px;
+    padding-inline: 100px;
+}
+
+.job-item {
+    -webkit-box-shadow: 1px 12px 20px 11px rgba(91,164,164,0.3); 
+    box-shadow: 1px 12px 20px 11px rgba(91,164,164,0.3);
+    background-color: white;
+}
+
+.title {
+    color: hsl(180, 29%, 50%);
+    font-weight: 700;
+}
+
+.grey {
+    color: hsl(180, 8%, 52%);
+    font-weight: 500;
+}
