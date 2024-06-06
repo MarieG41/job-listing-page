@@ -7,14 +7,73 @@
     -webkit-box-shadow: 1px 12px 20px 11px rgba(91,164,164,0.3); 
     box-shadow: 1px 12px 20px 11px rgba(91,164,164,0.3);
     background-color: white;
+    padding-block: 30px;
+    padding-inline: 30px;
+    margin-block-end: 50px;
+    border-radius: 7px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 120px 350px 670px;
+    align-items: center;
 }
 
 .title {
     color: hsl(180, 29%, 50%);
     font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.position {
+    font-size: 1.65rem;
+    margin: 0;
 }
 
 .grey {
     color: hsl(180, 8%, 52%);
     font-weight: 500;
+    padding-inline-end: 10px;
+}
+
+.div-other-infos {
+    justify-content: flex-end;
+}
+.tag {
+    margin-inline-start: 20px;
+    font-weight: 700;
+    background-color: hsl(180, 31%, 95%);
+    padding-block: 5px;
+    padding-inline: 10px;
+    color: hsl(180, 29%, 50%);
+    border: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.new {
+    color: hsl(180, 31%, 95%);
+    background-color: hsl(180, 29%, 50%);
+    border-radius: 17px;
+    padding-top: 5px;
+    padding-inline: 7px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    margin-inline-start: 20px;
+    margin-inline-end: 10px;
+    font-size: 15px;
+}
+
+.featured {
+    color: hsl(180, 31%, 95%);
+    background-color: hsl(180, 14%, 20%);
+    border-radius: 17px;
+    padding-top: 5px;
+    padding-inline: 7px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    font-size: 15px;
 }

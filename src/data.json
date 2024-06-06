@@ -11,8 +11,8 @@
     "postedAt": "1d ago",
     "contract": "Full Time",
     "location": "USA Only",
-    "languages": ["HTML", "CSS", "JavaScript"],
-    "tools": []
+    "languages": ["HTML ", "CSS ", "JavaScript"],
+    "tools": ["-"]
   },
   {
     "id": 2,
@@ -42,7 +42,7 @@
     "contract": "Part Time",
     "location": "USA Only",
     "languages": ["JavaScript"],
-    "tools": ["React", "Sass"]
+    "tools": ["React ", "Sass"]
   },
   {
     "id": 4,
@@ -56,8 +56,8 @@
     "postedAt": "5d ago",
     "contract": "Contract",
     "location": "USA Only",
-    "languages": ["CSS", "JavaScript"],
-    "tools": []
+    "languages": ["CSS ", "JavaScript"],
+    "tools": ["-"]
   },
   {
     "id": 5,
@@ -71,7 +71,7 @@
     "postedAt": "1w ago",
     "contract": "Full Time",
     "location": "Worldwide",
-    "languages": ["JavaScript", "Ruby"],
+    "languages": ["JavaScript ", "Ruby"],
     "tools": ["Sass"]
   },
   {
@@ -101,7 +101,7 @@
     "postedAt": "2w ago",
     "contract": "Full Time",
     "location": "Worldwide",
-    "languages": ["HTML", "JavaScript"],
+    "languages": ["HTML ", "JavaScript"],
     "tools": ["Sass"]
   },
   {
@@ -117,7 +117,7 @@
     "contract": "Full Time",
     "location": "USA Only",
     "languages": ["JavaScript"],
-    "tools": ["Vue", "Sass"]
+    "tools": ["Vue ", "Sass"]
   },
   {
     "id": 9,
@@ -131,7 +131,7 @@
     "postedAt": "3w ago",
     "contract": "Full Time",
     "location": "Worldwide",
-    "languages": ["JavaScript", "Python"],
+    "languages": ["JavaScript ", "Python"],
     "tools": ["Django"]
   },
   {
@@ -147,6 +147,6 @@
     "contract": "Part Time",
     "location": "Worldwide",
     "languages": ["JavaScript"],
-    "tools": ["React", "Sass"]
+    "tools": ["React", " Sass"]
   }
 ]
