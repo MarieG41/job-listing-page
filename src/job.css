@@ -29,6 +29,10 @@
     font-size: 1.65rem;
     margin: 0;
 }
+.position:hover {
+    color: hsl(180, 29%, 50%);
+    cursor: pointer;
+}
 
 .grey {
     color: hsl(180, 8%, 52%);
@@ -40,6 +44,8 @@
     justify-content: flex-end;
 }
 .tag {
+    font-family: inherit;
+    font-size: 15px;
     margin-inline-start: 20px;
     font-weight: 700;
     background-color: hsl(180, 31%, 95%);
@@ -47,6 +53,12 @@
     padding-inline: 10px;
     color: hsl(180, 29%, 50%);
     border: none;
+}
+
+.tag:hover {
+    background-color: hsl(180, 29%, 50%);
+    color: white;
+    cursor: pointer;
 }
 
 .flex {
@@ -76,4 +88,42 @@
     padding-bottom: 2px;
     font-weight: 700;
     font-size: 15px;
+}
+
+@media (max-width: 35em) {
+    
+    .jobs-main {
+        padding-inline: 10px;
+        padding-block: 50px;
+    }
+    .grid {display: block;}
+    .job-item {
+        padding-block: 15px;
+        padding-inline: 15px;
+        position: relative;
+    }
+    .title {
+        font-size: 1rem;
+    }
+    .tag {
+        font-size: 1rem;
+        margin-inline: 5px;
+        margin-block: 7px;
+    }
+
+    .div-main-infos {
+        margin-block-start: 35px;
+    }
+    .div-other-infos {
+        border-top: 1px solid hsl(180, 8%, 52%);
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .div-img {
+        position: absolute;
+        bottom: 205px;
+    }
+    .div-img img {
+        width: 70%;
+    }
 }

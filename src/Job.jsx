@@ -6,14 +6,16 @@ export default function Job() {
     const [ role, setRole ] = useState(false)
     const [ datasList, setDatasList ] = useState([])
 
-    function handleRole() {
-        setRole(!role)
-        console.log('click');
-    }
     useEffect(() => {
         const filteredRole = role ? datas.filter((data) => data.role) : datas
         setDatasList(filteredRole)
     }, [role])
+
+    function handleRole() {
+        setRole(!role)
+        console.log('click');
+    }
+    
     return (
         <>
             {datasList.length > 0 && datas.map((data) => {
